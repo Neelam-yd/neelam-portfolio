@@ -25,7 +25,7 @@ export default function About() {
           <div className="absolute my-10 w-[350px] h-[350px] bg-orange-500/20 rounded-full blur-3xl"></div>
 
           <Image
-            src="/image.png"
+            src="/hero.png"
             alt="profile"
             width={300}
             height={250}
