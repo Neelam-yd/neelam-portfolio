@@ -30,23 +30,26 @@ export default function Hero() {
         <p className="text-gray-400 max-w-md">
           I build modern web applications using cutting-edge technologies like React, Next.js.
         </p>
-
+ <div className="flex space-x-4 mt-6">
         {/* Buttons */}
-        <div className="flex space-x-4 mt-6">
-          <a
-            href="#contact"
-            className="bg-orange-500 text-black px-5 py-2 rounded font-semibold hover:bg-orange-600 transition"
-          >
-            Let's Chat
-          </a>
-          <a
-            href="#resume"
-            className="border border-orange-500 text-orange-500 px-5 py-2 rounded font-semibold hover:bg-orange-500 hover:text-black transition"
-          >
-            My Resume
-          </a>
-        </div>
+       {/* Smooth scroll to contact section — no browser navigation */}
+<a
+  href="/contact"
+  className="bg-orange-500 text-black px-5 py-2 rounded font-semibold hover:bg-orange-600 transition"
+>
+  Let's Chat
+</a>
 
+{/* Opens resume PDF in a new tab */}
+<a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-orange-500 text-orange-500 px-5 py-2 rounded font-semibold hover:bg-orange-500 hover:text-black transition"
+>
+  My Resume
+</a>
+</div>
         {/* Tech Stack */}
         <div className="mt-8 flex flex-wrap gap-3 text-gray-400">
           <span className="border border-gray-700 px-3 py-1 rounded">Node.js</span>

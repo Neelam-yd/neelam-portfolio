@@ -83,10 +83,10 @@ export default function ContactPage() {
         <h1 className="text-6xl md:text-7xl font-extrabold leading-none tracking-tight">
           Let&apos;s <span className="text-[#e8650a]">Work Together</span>
         </h1>
-        <p className="mt-5 text-[#888] text-base leading-relaxed max-w-3xl mx-auto">
-          Have a project in mind or just want to say hi? My inbox is always
-          open —<br /> I&apos;ll get back to you as soon as possible.
-        </p>
+       <p className="mt-5 text-...">
+  I&apos;ll get back to you as soon as possible.
+</p>
+     
       </div>
 
       {/* Two-column layout */}

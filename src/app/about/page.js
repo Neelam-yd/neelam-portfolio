@@ -55,7 +55,7 @@ export default function About() {
 
           {/* Button */}
           <a
-            href="#contact"
+            href="contact"
             className="inline-block mt-6 bg-orange-500 text-black px-6 py-2 rounded-xl font-semibold hover:bg-orange-600 transition"
           >
             Contact Me
